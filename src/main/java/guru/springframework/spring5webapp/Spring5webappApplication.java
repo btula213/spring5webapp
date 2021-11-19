@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Spring5webappApplication {
 
 	public static void main(String[] args) {
+		System.out.println("About to run the Spring5WebApplication.......");
 		SpringApplication.run(Spring5webappApplication.class, args);
+		System.out.println("Completed running Spring5WebApplication.......");
 	}
 }
